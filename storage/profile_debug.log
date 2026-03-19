@@ -1,0 +1,7 @@
+[INITIALIZED] profile_debug.log created by dev helper on 2025-12-25
+[2026-02-28 06:34:08] Incoming request: action=change_password admin_id=1 POST={"action":"change_password","current_password":"***","new_password":"***"}
+[2026-02-28 06:34:08] Response: {"success":true,"message":"Password changed successfully"}
+[2026-03-02 05:27:50] Incoming request: action=upload_profile_image admin_id=1 POST={"action":"upload_profile_image"}
+[2026-03-02 05:27:50] Response: {"success":true,"message":"Profile image updated successfully","image_path":"images\/profiles\/profile_69a511c661a61.jpg"}
+[2026-03-07 04:34:16] Incoming request: action=update_profile admin_id=3 POST={"action":"update_profile","first_name":"DAX","last_name":"SOJITRA","email":"daxyz07@gmail.com","contact":"1234567890","address":"||||"}
+[2026-03-07 04:34:16] Response: {"success":false,"message":"Email already exists"}
